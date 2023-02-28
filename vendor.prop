@@ -201,6 +201,9 @@ vendor.power.pasr.enabled=false
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.perf.scroll_opt=true
+ro.vendor.qspm.enable=true
+ro.vendor.perf-hal.ver=2.2
 
 # Radio
 persist.radio.multisim.config=dsds

@@ -354,6 +354,9 @@
         <item>"/system/framework/services.jar"</item>
         <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
         <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
+        <item>/system/framework/QPerformance.jar</item>
+        <item>/system/framework/QXPerformance.jar</item>
+        <item>/system/framework/UxPerformance.jar</item>
         <item>"/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk"</item>
         <item>"/system_ext/priv-app/SystemUIGoogle/oat/arm64/SystemUIGoogle.odex"</item>
         <item>"/system/bin/surfaceflinger"</item>
@@ -413,4 +416,7 @@
     <!-- Flag indicating whether notification and ringtone volumes
          are controlled together (aliasing is true) or not. -->
     <bool name="config_alias_ring_notif_stream_types">false</bool>
+
+    <!-- QTI Boost Framework -->
+    <bool name="config_supportsBoostFramework">true</bool>
 </resources>
